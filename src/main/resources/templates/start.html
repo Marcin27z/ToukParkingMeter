@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/start.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Start</title>
+</head>
+<body>
+    <div class="container" style="margin-top: 50px;">
+        <div class="col-lg-8 text-center col-center">
+            <h1>Start parking</h1>
+            <p>Enter id: </p><input id="id" type="text" class="form-control margin"/>
+            <p>Select type: </p><select id="driver_type" class="form-control margin">
+                <option value="REGULAR">REGULAR</option>
+                <option value="VIP">VIP</option>
+            </select>
+            <button id="submit" class="btn btn-primary margin">Start</button>
+            <a href="/" class="btn btn-primary margin">Go back</a>
+            <div id="result" class="margin"></div>
+        </div>
+    </div>
+</body>
+</html>
